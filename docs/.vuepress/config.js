@@ -18,7 +18,7 @@ export default defineUserConfig({
                 children: [
                     {text: '关于作者', link: '/入站必读/关于作者'},
                     {text: '文档排版约定', link: '/入站必读/文档排版约定'},
-                    {text: '下一步的计划', link: '/入站必读/下一步的计划'},
+                    {text: '文档书写计划', link: '/入站必读/文档书写计划'},
                 ],
             },
             {
