@@ -24,12 +24,21 @@ export default defineUserConfig({
             {
                 text: '计算机基础',
                 children: [
-                    {text: '计算机组成原理', link: '/计算机基础/计算机组成原理'},
-                    {text: '计算机网络', link: '/计算机基础/计算机网络'},
-                    {text: '操作系统', link: '/计算机基础/操作系统'},
+                    {text: '计算机组成原理', link: '/计算机基础/计算机组成原理/'},
                 ],
             },
         ],
+
+        sidebar: {
+            '/计算机基础/计算机组成原理/': [
+                {
+                    text: '计算机组成原理',
+                    children: [
+                        {text: '计算机科学速成课', link: '/计算机基础/计算机组成原理/计算机科学速成课'},
+                    ],
+                },
+            ],
+        },
     }),
 
     bundler: viteBundler(),
