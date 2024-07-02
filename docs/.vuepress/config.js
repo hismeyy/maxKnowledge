@@ -7,6 +7,10 @@ export default defineUserConfig({
 
     title: 'MaxKnowledge',
     description: 'MaxKnowledge Site',
+    base: '/',
+    head: [
+        ['link', {rel: 'icon', href: '/images/favicon.ico'}],
+    ],
 
     theme: defaultTheme({
         logo: 'https://vuejs.press/images/hero.png',
@@ -56,5 +60,4 @@ export default defineUserConfig({
     }),
 
     bundler: viteBundler(),
-    dest: 'dist',
 })
