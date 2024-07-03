@@ -13,7 +13,7 @@ export default defineUserConfig({
     ],
 
     theme: defaultTheme({
-        logo: 'https://vuejs.press/images/hero.png',
+        logo: '/images/logo.png',
 
         navbar: [
             {text: '首页', link: '/'},
@@ -44,7 +44,7 @@ export default defineUserConfig({
                 {
                     text: '计算机组成原理',
                     children: [
-                        {text: '计算机历史', link: '/计算机基础/计算机组成原理/计算机历史'},
+                        {text: '计算机发展史', link: '/计算机基础/计算机组成原理/计算机发展史'},
                     ],
                 },
             ],
