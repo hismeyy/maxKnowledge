@@ -7,6 +7,10 @@ export default defineUserConfig({
 
     title: 'MaxKnowledge',
     description: 'MaxKnowledge Site',
+    base: '/',
+    head: [
+        ['link', {rel: 'icon', href: '/images/favicon.ico'}],
+    ],
 
     theme: defaultTheme({
         logo: 'https://vuejs.press/images/hero.png',
@@ -27,6 +31,12 @@ export default defineUserConfig({
                     {text: '计算机组成原理', link: '/计算机基础/计算机组成原理/'},
                 ],
             },
+            {
+              text: '经验笔记',
+              children: [
+                  {text: 'MySQL', link: '/经验笔记/MySQL/'},
+              ],
+            },
         ],
 
         sidebar: {
@@ -35,6 +45,14 @@ export default defineUserConfig({
                     text: '计算机组成原理',
                     children: [
                         {text: '计算机历史', link: '/计算机基础/计算机组成原理/计算机历史'},
+                    ],
+                },
+            ],
+            '/经验笔记/MySQL/': [
+                {
+                    text: '经验笔记',
+                    children: [
+                        {text: '解决创建索引卡死的问题', link: '/经验笔记/MySQL/解决创建索引卡死的问题'},
                     ],
                 },
             ],
