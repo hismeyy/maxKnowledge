@@ -53,6 +53,7 @@ export default defineUserConfig({
                     text: '经验笔记',
                     children: [
                         {text: '解决创建索引卡死的问题', link: '/经验笔记/MySQL/解决创建索引卡死的问题'},
+                        {text: '解决PDI升级MySQL8的问题', link: '/经验笔记/MySQL/解决PDI升级MySQL8的问题'},
                     ],
                 },
             ],
