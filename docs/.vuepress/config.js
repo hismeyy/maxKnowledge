@@ -32,6 +32,10 @@ export default defineUserConfig({
                 ],
             },
             {
+                text: '电路',
+                link: '/电路/'
+            },
+            {
               text: '经验笔记',
               children: [
                   {text: 'MySQL', link: '/经验笔记/MySQL/'},
@@ -45,6 +49,14 @@ export default defineUserConfig({
                     text: '计算机组成原理',
                     children: [
                         {text: '计算机发展史', link: '/计算机基础/计算机组成原理/计算机发展史'},
+                    ],
+                },
+            ],
+            '/电路/': [
+                {
+                    text: '电路',
+                    children: [
+                        {text: '基本逻辑门电路', link: '/电路/基本逻辑门电路'},
                     ],
                 },
             ],
