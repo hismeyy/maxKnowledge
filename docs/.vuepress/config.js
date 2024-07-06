@@ -49,6 +49,7 @@ export default defineUserConfig({
                     text: '计算机组成原理',
                     children: [
                         {text: '计算机发展史', link: '/计算机基础/计算机组成原理/计算机发展史'},
+                        {text: '计算机硬件组成', link: '/计算机基础/计算机组成原理/计算机硬件组成'},
                     ],
                 },
             ],
