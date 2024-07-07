@@ -58,6 +58,7 @@ export default defineUserConfig({
                     text: '电路',
                     children: [
                         {text: '基本逻辑门电路', link: '/电路/基本逻辑门电路'},
+                        {text: '8位ALU电路设计', link: '/电路/8位ALU电路设计'},
                     ],
                 },
             ],
