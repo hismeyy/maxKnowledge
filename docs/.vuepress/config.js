@@ -39,6 +39,7 @@ export default defineUserConfig({
               text: '经验笔记',
               children: [
                   {text: 'MySQL', link: '/经验笔记/MySQL/'},
+                  {text: 'MyBatis', link: '/经验笔记/MyBatis/'},
               ],
             },
         ],
@@ -68,6 +69,14 @@ export default defineUserConfig({
                     children: [
                         {text: '解决创建索引卡死的问题', link: '/经验笔记/MySQL/解决创建索引卡死的问题'},
                         {text: '解决PDI升级MySQL8的问题', link: '/经验笔记/MySQL/解决PDI升级MySQL8的问题'},
+                    ],
+                },
+            ],
+            '/经验笔记/MyBatis/': [
+                {
+                    text: '经验笔记',
+                    children: [
+                        {text: 'MyBatisPlus错误总结', link: '/经验笔记/MyBatis/MyBatisPlus错误总结'},
                     ],
                 },
             ],
